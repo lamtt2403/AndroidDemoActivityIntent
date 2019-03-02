@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvReceive"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:background="#03A9F4"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btTakePicture"
+        android:text="TakePicture"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvReceive"
+        android:layout_width="match_parent"
+        android:background="#8BC34A"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_below="@+id/btTakePicture"
+        android:id="@+id/ivResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

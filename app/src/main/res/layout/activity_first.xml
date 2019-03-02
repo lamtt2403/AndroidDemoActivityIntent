@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/edData"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        android:background="#00BCD4"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btSecondActivity"
+        android:text="Second Activity"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edData"
+        android:layout_width="match_parent"
+        android:background="#FF5722"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btOpenUrl"
+        android:text="OpenUrl"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btSecondActivity"
+        android:layout_width="match_parent"
+        android:background="#8BC34A"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btCallPhone"
+        android:text="CallPhone"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btOpenUrl"
+        android:layout_width="match_parent"
+        android:background="#FF5722"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btSendObjTo2Activty"
+        android:text="Send Obj to 2Activity"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btCallPhone"
+        android:layout_width="match_parent"
+        android:background="#8BC34A"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
